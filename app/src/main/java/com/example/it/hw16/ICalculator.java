@@ -8,7 +8,7 @@ public interface ICalculator {
 
     String add(int... values);
 
-    String multiply(int... values);
+    String devide(int... values);
 
     String evaluate(String value);
 }

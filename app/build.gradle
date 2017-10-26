@@ -12,11 +12,12 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+
         debug {
-            buildConfigField "String", "BASE_CALC_URL", "\"https://debugcalculator.appspot.com\""
+            buildConfigField "String", "BASE_CALC_URL", "\"https://add-and-multiply-calculator.appspot.com/\""
         }
         release {
-            buildConfigField "String", "BASE_CALC_URL", "\"https://releasecalculator.appspot.com\""
+            buildConfigField "String", "BASE_CALC_URL", "\"https://cogent-mark-184110.appspot.com//\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -28,12 +29,14 @@ android {
 
         GooglePlay {
             flavorDimension "store"
-            buildConfigField "String", "SHARE_URL", "\"http://mybestcalcforgooglestore.com\""
+            buildConfigField "String", "STORE_NAME", "\"Google play\""
+            buildConfigField "String", "SHARE_URL", "\"http://googlestore.com\""
         }
 
         Amazon {
             flavorDimension "store"
-            buildConfigField "String", "SHARE_URL", "\"http://mybestcalcforamazon.com\""
+            buildConfigField "String", "STORE_NAME", "\"Amazon\""
+            buildConfigField "String", "SHARE_URL", "\"http://amazon.com\""
         }
 
     }

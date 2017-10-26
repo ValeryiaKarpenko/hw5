@@ -21,6 +21,10 @@ public class CalcApi {
         return evaluate(a + "+" + b);
     }
 
+    public String calculateDev(final int a, final int b) {
+        return evaluate(a + "/" + b);
+    }
+
     public String evaluate(String input) {
         try {
             return mBasePath + CALC + URLEncoder.encode(input, "UTF-8");

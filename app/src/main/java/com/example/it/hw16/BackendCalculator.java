@@ -18,8 +18,11 @@ public class BackendCalculator implements ICalculator {
     }
 
     @Override
-    public String multiply(final int... values) {
-        throw new UnsupportedOperationException("multiply");
+    public String devide(final int... values) {
+        final String url = new CalcApi(BuildConfig.BASE_CALC_URL).calculateDev(values[0], values[1]);
+        final MyResponseListener listener = new MyResponseListener();
+        new HttpClient().request(url, listener);
+        return String.valueOf(listener.getResult().getSum());
     }
 
     @Override

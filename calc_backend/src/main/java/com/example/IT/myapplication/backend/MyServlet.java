@@ -21,10 +21,10 @@ public class MyServlet extends HttpServlet {
         Result result = new Result();
         try {
             String e = pRequest.getParameter("input");
-            String[] numbers = e.split("\\+");
+            String[] numbers = e.split("\\/");
             int firstNumber = Integer.parseInt(numbers[0]);
             int secondNumber = Integer.parseInt(numbers[1]);
-            int sum = firstNumber + secondNumber;
+            int sum = firstNumber / secondNumber;
             result.setSum(sum);
         } catch (Exception var9) {
             result.setError( var9.toString());
