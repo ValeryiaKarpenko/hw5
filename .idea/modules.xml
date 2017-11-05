@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend_config/backend_config.iml" filepath="$PROJECT_DIR$/backend_config/backend_config.iml" />
       <module fileurl="file://$PROJECT_DIR$/calc_backend/calc_backend.iml" filepath="$PROJECT_DIR$/calc_backend/calc_backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculator_backend/calculator_backend.iml" filepath="$PROJECT_DIR$/calculator_backend/calculator_backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config_backend/config_backend.iml" filepath="$PROJECT_DIR$/config_backend/config_backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/hw16.iml" filepath="$PROJECT_DIR$/hw16.iml" />
     </modules>

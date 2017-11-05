@@ -9,8 +9,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/backend_config" />
             <option value="$PROJECT_DIR$/calc_backend" />
             <option value="$PROJECT_DIR$/calculator_backend" />
+            <option value="$PROJECT_DIR$/config_backend" />
             <option value="$PROJECT_DIR$/domain" />
           </set>
         </option>
